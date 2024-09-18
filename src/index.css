@@ -73,3 +73,9 @@ header {
 .sidebar-container {
     margin-top: 37px;
 }
+
+@media (max-width: 903px) {
+    .sidebar-wrapper {
+      display: none;
+    }
+}
