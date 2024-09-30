@@ -36,7 +36,7 @@ const Sidebar = () => {
           <h4>Who to Follow</h4>
           <div className="flex flex-col mt-3 mb-4">
             {authors.map((author) => (
-              <div key={author.id} className="flex items-start justify-between items-center gap-5 mb-3">
+              <div key={author.id} className="flex justify-between items-center gap-5 mb-3">
                 <div className="flex">
                   <img
                     src={author.image}

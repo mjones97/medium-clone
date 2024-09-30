@@ -12,7 +12,7 @@ const Header = () => {
         <input type="text" placeholder='Search' className='header-input' />
       </div>
       <nav>
-        <ul className="flex space-x-8">
+        <ul className="flex items-center space-x-8">
           <li>
             <a href="/" className='flex items-center'>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" aria-label="Write" className='mr-1'>
