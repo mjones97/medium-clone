@@ -1,6 +1,6 @@
 import React from 'react'
 import ArticleCard from './ArticleCard'
-import articles from '../data'
+import articles from '../data/data'
 
 const ArticlesList = () => {
   return (
